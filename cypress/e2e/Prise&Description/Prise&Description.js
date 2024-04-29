@@ -1,6 +1,6 @@
 
 Given(/^User on the SauceDemo login page$/, () => {
-    cy.visit('https://www.saucedemo.com');
+    cy.visit('/');
     cy.get('.login_logo').should('have.text', 'Swag Labs');
 });
 
